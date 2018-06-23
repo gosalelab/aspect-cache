@@ -17,7 +17,8 @@ Aspect Cache是一个针对Spring Boot，基于AOP注解方式的轻量级缓存
 
 ### 3. 添加配置项，确认开启缓存和具体缓存方式
 > com.gosalelab.cache.enable=true
-> com.gosalelab.cache.provider=eh 
+
+> com.gosalelab.cache.provider=eh
 
 或
 
@@ -86,15 +87,15 @@ Aspect Cache是一个针对Spring Boot，基于AOP注解方式的轻量级缓存
 具体参考自带Demo中的测试类：`com.gosalelab.testcase.CacheTest`
 
 ### 缓存表达式
-默认使用`SpEL`表达式，具体的使用可以参考Demo。
+默认使用`SpEL`表达式，具体的使用可以参考Demo中的测试项。
 
 ### 计划
-1. 添加缓存后台管理功能
-2. 进一步优化代码
+1. 增加加英文文档
+2. 添加缓存后台管理功能
+3. 进一步优化代码
 
 ### 其他
 * 如果在使用中遇到问题，欢迎在[Github留言](https://github.com/gosalelab/aspect-cache/issues)  [Gitee留言](https://gitee.com/gosalelab/aspect-cache/issues)
 * 同时也欢迎您提交代码，一起完善项目
-
 
 
